@@ -1,0 +1,44 @@
+.importante{
+    color: rgb(255, 237, 76);
+}
+
+.skills{
+    color: rgb(83, 228, 64);
+} 
+
+.everything{
+    background-color: lightskyblue;
+}
+
+article{
+    padding: 20px;
+    border: 6px dotted rgb(242, 255, 60);
+    margin: 8px;
+    margin-top: -3px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap
+}
+
+.datos{
+    padding: -20px;
+    background-color: rgb(42, 60, 163);
+    color: red
+}
+
+.description{
+    background-color: chocolate;
+    color: yellow
+}
+
+@media (max-width: 600px) {
+    article {
+        width: 100%; /* La tarjeta ocupa todo el ancho en el móvil */
+    }
+    
+    h1 {
+        font-size: 1.5rem; /* Hacemos el título un poco más pequeño */
+    }
+}
