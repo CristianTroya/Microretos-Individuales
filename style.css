@@ -11,10 +11,11 @@
 }
 
 article{
-    padding: 20px;
+    padding: 25px;
     border: 6px dotted rgb(242, 255, 60);
-    margin: 8px;
+    margin: 18px;
     margin-top: -3px;
+    box-shadow: 15px 15px 25px 15px black;
 }
 
 section{
