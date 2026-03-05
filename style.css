@@ -1,3 +1,8 @@
+body{
+    text-align: center;
+    align-content: center;
+}
+
 .importante{
     color: rgb(255, 237, 76);
 }
@@ -13,20 +18,25 @@
 article{
     padding: 25px;
     border: 6px dotted rgb(242, 255, 60);
-    margin: 18px;
-    margin-top: -3px;
     box-shadow: 15px 15px 25px 15px black;
+    width: 30%;
+    margin: 0 auto;  
+}
+
+article:hover {
+  transform: scale(1.05,1.05);
 }
 
 section{
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
 
 .datos{
-    padding: -20px;
+    padding: 50px;
     background-color: rgb(42, 60, 163);
-    color: red
+    color: red;
+    height: 130px 
 }
 
 .description{
@@ -42,4 +52,25 @@ section{
     h1 {
         font-size: 1.5rem; /* Hacemos el título un poco más pequeño */
     }
+}
+
+.noche{
+    background-color: black;
+    .description{
+        background-color: rgb(109, 71, 0);
+        color: rgb(209, 209, 60);
+    }
+    .importante{
+        color: rgb(209, 209, 60);
+    }
+    .datos{
+        background-color:rgb(6, 6, 92) ;
+    }
+    .enlacegithub{
+        color:lightskyblue
+    }
+    article{
+        border: 6px dotted rgb(156, 165, 27)
+    }
+    color: white;
 }
