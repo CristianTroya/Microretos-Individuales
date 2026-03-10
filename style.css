@@ -4,11 +4,11 @@ body{
 }
 
 .importante{
-    color: rgb(255, 237, 76);
+    color: rgb(243, 233, 139);
 }
 
 .skills{
-    color: rgb(83, 228, 64);
+    color: rgb(211, 128, 73);
 } 
 
 .everything{
@@ -17,7 +17,7 @@ body{
 
 article{
     padding: 25px;
-    border: 6px dotted rgb(242, 255, 60);
+    border: 6px solid rgb(226, 233, 124);
     box-shadow: 15px 15px 25px 15px black;
     width: 30%;
     margin: 0 auto;  
@@ -35,13 +35,13 @@ section{
 .datos{
     padding: 50px;
     background-color: rgb(42, 60, 163);
-    color: red;
+    color: rgb(231, 63, 175);
     height: 130px 
 }
 
 .description{
-    background-color: chocolate;
-    color: yellow
+    background-color: rgb(210, 105, 30);
+    color: rgb(255, 255, 0)
 }
 
 @media (max-width: 600px) {
@@ -70,7 +70,14 @@ section{
         color:lightskyblue
     }
     article{
-        border: 6px dotted rgb(156, 165, 27)
+        border: 6px solid rgb(156, 165, 27);
     }
-    color: white;
+    .datos{
+        color: rgb(145, 70, 120);
+    }
+    .skills{
+        color: rgb(128, 84, 55);
+    }
+    color: rgba(255, 255, 255, 0.596);
+
 }
