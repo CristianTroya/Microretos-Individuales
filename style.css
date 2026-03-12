@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
 main{
     max-width: 5000px;
     margin: auto;
@@ -9,29 +11,39 @@ footer{
     font-size: 17px;
 }
 
+#mi_nombre{
+    color:firebrick;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: xx-large;
+}
+
 body{
     text-align: center;
     align-content: center;
+    background-color: #87cefa;
+}
+
+.description{
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: x-large;
 }
 
 .importante{
     color: rgb(243, 233, 139);
 }
 
-.skills{
+.dato-importante{
     color: rgb(211, 128, 73);
+    font-weight: 500;
 } 
-
-body{
-    background-color: lightskyblue;
-}
 
 article{
     padding: 25px;
     border: 6px solid rgb(226, 233, 124);
     box-shadow: 15px 15px 25px 15px black;
-    width: 30%;
-    margin: 0 auto;  
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 25%;  
 }
 
 article:hover {
@@ -55,11 +67,15 @@ section{
     color: rgb(255, 255, 0)
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1222px) {
     article {
         width: 100%; /* La tarjeta ocupa todo el ancho en el móvil */
     }
     
+    .datos{
+        height: 8cm;
+    }
+
     h1 {
         font-size: 1.5rem; /* Hacemos el título un poco más pequeño */
     }
