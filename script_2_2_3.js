@@ -9,3 +9,9 @@ miBoton.addEventListener("click", function() {
     h3.textContent = '¡Día fantástico para Cristian Troya Moreno! (Ref: CTM)';
     document.body.style.color = 'orange';
 });
+
+miBoton.addEventListener("mouseenter", function() {
+    console.log("¡Has pasado el ratón por el botón!");
+    const button = document.querySelector('button');
+    button.textContent = '¡Púlsame, Troya!';
+});
