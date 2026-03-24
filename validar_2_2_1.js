@@ -7,4 +7,9 @@ boton.addEventListener("click", function() {
     // Alterna la clase 'noche' en todo el cuerpo de la web
     document.body.classList.toggle("noche");
     console.log('cualquier cosa')
+    if(boton.textContent == 'Noche'){
+        boton.textContent = 'Día';
+    } else{
+        boton.textContent = 'Noche';
+    }
 });

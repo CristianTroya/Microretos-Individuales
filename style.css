@@ -85,16 +85,16 @@ section{
     background-color: black;
     .description{
         background-color: rgb(109, 71, 0);
-        color: rgb(209, 209, 60);
+        color: rgb(133, 133, 24);
     }
     .importante{
-        color: rgb(209, 209, 60);
+        color: rgb(133, 133, 24);
     }
     .datos{
         background-color:rgb(6, 6, 92) ;
     }
     .enlacegithub{
-        color:lightskyblue
+        color:rgb(5, 75, 119);
     }
     article{
         border: 6px solid rgb(156, 165, 27);
@@ -102,7 +102,7 @@ section{
     .datos{
         color: rgb(145, 70, 120);
     }
-    .skills{
+    .dato-importante{
         color: rgb(128, 84, 55);
     }
     color: rgba(255, 255, 255, 0.596);
